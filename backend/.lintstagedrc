@@ -1,0 +1,7 @@
+{
+  "*.ts": [
+    "npx eslint --fix",
+    "npx tsc",
+    "npm run test -- --findRelatedTests"
+  ]
+}

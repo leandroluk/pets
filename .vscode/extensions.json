@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "firsttris.vscode-jest-runner",
+    "ms-azuretools.vscode-docker",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "rangav.vscode-thunder-client",
+    "mikerhyssmith.ts-barrelr",
+    "vscode-icons-team.vscode-icons"
+  ]
+}

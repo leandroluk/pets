@@ -1,0 +1,7 @@
+.esbuild
+.serverless
+.coverage
+serveless.ts
+node_modules
+globalConfig.json
+package-lock.json

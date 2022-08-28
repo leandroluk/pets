@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "name": "backend",
+      "request": "launch",
+      "runtimeArgs": [
+        "run-script",
+        "backend"
+      ],
+      "runtimeExecutable": "npm",
+      "outputCapture": "std",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "frontend",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run frontend",
+      "outputCapture": "std",
+      "serverReadyAction": {
+        "pattern": "started server on .+, url: (https?://.+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome"
+      }
+    }
+  ]
+}
